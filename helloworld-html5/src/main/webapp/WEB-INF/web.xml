@@ -25,4 +25,8 @@
         <servlet-name>javax.ws.rs.core.Application</servlet-name>
         <url-pattern>/hello/*</url-pattern>
     </servlet-mapping>
+    
+    <login-config>
+        <auth-method>KEYCLOAK</auth-method>
+    </login-config>
 </web-app>
